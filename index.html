@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>شيرباك — كل رحلة فرصة | توصيل الشحنات مع المسافرين</title>
+  <meta name="description" content="شيرباك منصة تربط المسافرين بأصحاب الطلبات لتوصيل الشحنات بين المدن بأمان — جدة ⇄ القاهرة والمزيد قادم">
+  <meta name="theme-color" content="#1A517C">
+  <link rel="canonical" href="https://sherbak.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="شيرباك — SherBak">
+  <meta property="og:title" content="شيرباك — كل رحلة فرصة | توصيل الشحنات مع المسافرين">
+  <meta property="og:description" content="منصة تربط المسافرين بأصحاب الطلبات لتوصيل الشحنات بين المدن بأمان — دفع محمي وتأكيد استلام برمز OTP.">
+  <meta property="og:url" content="https://sherbak.com/">
+  <meta property="og:image" content="https://sherbak.com/img/og-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="ar_SA">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="شيرباك — كل رحلة فرصة">
+  <meta name="twitter:description" content="حقيبتك فرصة دخل، طلبك يصل أسرع. جدة ⇄ القاهرة والمزيد قادم.">
+  <meta name="twitter:image" content="https://sherbak.com/img/og-card.png">
+
+  <link rel="icon" type="image/png" href="img/sherbak-icon.png">
+
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/landing.css?v=11">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "شيرباك",
+        "alternateName": "SherBak",
+        "url": "https://sherbak.com/",
+        "logo": "https://sherbak.com/img/sherbak-icon.png",
+        "email": "info@sherbak.com",
+        "slogan": "شيرباك · كل رحلة فرصة"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "شيرباك — SherBak",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "TravelApplication",
+        "description": "منصة تجمع بين المسافرين وأصحاب الطلبات لتوصيل الأغراض بين المدن والدول."
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#1A517C"></rect><circle cx="50" cy="50" r="26" fill="#009A8F"></circle><text x="50" y="58" font-size="22" font-weight="bold" fill="#fff" text-anchor="middle" font-family="sans-serif">شب</text></svg></template>
+
+  <div class="page-loading" id="page_loading" aria-hidden="true"><img src="img/sherbak-icon-r.png" alt=""></div>
+
+  <div class="scroll-progress"></div>
+
+  <!-- ============ Navbar ============ -->
+  <nav class="navbar-sherbak navbar-expand-lg" id="top">
+    <div class="container">
+      <div class="nav-inner">
+        <a class="brand" href="#top" aria-label="SherBak">
+          <img class="brand-full" src="img/sherbak-logo-r.png" alt="شيرباك — SherBak">
+        </a>
+
+        <div class="nav-links collapse navbar-collapse" id="navMenu">
+          <a href="#audiences"><span class="L ar">من نحن</span><span class="L en">About us</span></a>
+          <a href="#how"><span class="L ar">كيف يعمل</span><span class="L en">How it works</span></a>
+          <a href="#features"><span class="L ar">المزايا</span><span class="L en">Features</span></a>
+          <a href="#trust"><span class="L ar">الثقة</span><span class="L en">Trust</span></a>
+          <a href="#routes"><span class="L ar">الوجهات</span><span class="L en">Routes</span></a>
+        </div>
+
+        <div class="nav-actions">
+          <button type="button" class="lang-toggle" data-lang-toggle><span class="L ar">EN</span><span class="L en">عربي</span></button>
+          <a class="btn-download" href="#download">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <span class="L ar">حمل التطبيق</span><span class="L en">Get the app</span>
+          </a>
+          <button type="button" class="nav-burger" data-toggle="collapse" data-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============ Hero ============ -->
+  <header class="hero" data-screen-label="Hero">
+    <span class="hero-grid-fx" aria-hidden="true"></span>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="reveal in">
+            <div class="route-arc">
+            <svg viewBox="0 0 600 190" width="100%" aria-hidden="true">
+              <path class="arc-path" id="arcPath" d="M 40 160 Q 300 10 560 160"></path>
+              <g class="arc-plane">
+                <g>
+                  <path d="M 0 -7 L 3 -1 L 14 1 L 3 3 L 0 9 L -2 3 L -8 4 L -4 0 L -8 -3 L -2 -1 Z">
+                    <animateTransform attributeName="transform" type="scale"
+                      values="1 1;-1 1" keyTimes="0;0.5" calcMode="discrete"
+                      dur="10s" repeatCount="indefinite"></animateTransform>
+                  </path>
+                </g>
+                <animateMotion dur="10s" repeatCount="indefinite" rotate="auto"
+                  keyPoints="0;1;0" keyTimes="0;0.5;1"
+                  calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1">
+                  <mpath href="#arcPath"></mpath>
+                </animateMotion>
+              </g>
+            </svg>
+            <span class="arc-city start">
+              <span class="dot"></span>
+              <strong><span class="L ar">جدة</span><span class="L en">Jeddah</span></strong>
+              <span>JED</span>
+            </span>
+            <span class="arc-city end">
+              <span class="dot"></span>
+              <strong><span class="L ar">القاهرة</span><span class="L en">Cairo</span></strong>
+              <span>CAI</span>
+            </span>
+          </div>
+            <h1 class="hero-headline"><span class="hero-rotator" id="hero_rotator"></span></h1>
+            <p class="hero-body">
+              <span class="L ar">شيرباك منصة تجمع المسافرين بأصحاب الطلبات لتوصيل الأغراض بين المدن والدول</span>
+              <span class="L en">SherBak is a platform bringing travelers and senders together to move parcels between cities and countries</span>
+            </p>
+            <div class="store-badges">
+              <a class="store-badge" href="#" data-store-soon>
+                <i class="fa-brands fa-apple"></i>
+                <span class="sb-text">
+                  <span class="sb-small"><span class="L ar">تنزيل من</span><span class="L en">Download on the</span></span>
+                  <span class="sb-big">App Store</span>
+                </span>
+              </a>
+              <a class="store-badge" href="#" data-store-soon>
+                <i class="fa-brands fa-google-play"></i>
+                <span class="sb-text">
+                  <span class="sb-small"><span class="L ar">احصل عليه من</span><span class="L en">Get it on</span></span>
+                  <span class="sb-big">Google Play</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-phone reveal in" style="--d: 150ms;">
+            <img class="phone-img" src="img/screens/11-home.png" alt="الشاشة الرئيسية لتطبيق شيرباك">
+            <button type="button" class="phone-video" data-toggle="modal" data-target="#ytPlayer">
+              <span class="icon"><i class="fa-solid fa-play"></i></span>
+              <span class="lbl"><span class="L ar">الفيديو التعريفي</span><span class="L en">Intro video</span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ Ticker ============ -->
+  <div class="ticker-band" aria-hidden="true">
+    <div class="ticker">
+      <span class="L ar">كل رحلة فرصة <i class="fa-solid fa-circle"></i> حول رحلتك لمصدر دخل <i class="fa-solid fa-circle"></i> جدة ⇄ القاهرة <i class="fa-solid fa-circle"></i> دفع محمي <i class="fa-solid fa-circle"></i> تأكيد بـ OTP <i class="fa-solid fa-circle"></i></span>
+      <span class="L ar">كل رحلة فرصة <i class="fa-solid fa-circle"></i> حول رحلتك لمصدر دخل <i class="fa-solid fa-circle"></i> جدة ⇄ القاهرة <i class="fa-solid fa-circle"></i> دفع محمي <i class="fa-solid fa-circle"></i> تأكيد بـ OTP <i class="fa-solid fa-circle"></i></span>
+      <span class="L en">Every trip is an opportunity <i class="fa-solid fa-circle"></i> Turn your trip into income <i class="fa-solid fa-circle"></i> Jeddah ⇄ Cairo <i class="fa-solid fa-circle"></i> Protected payments <i class="fa-solid fa-circle"></i> OTP confirmation <i class="fa-solid fa-circle"></i></span>
+      <span class="L en">Every trip is an opportunity <i class="fa-solid fa-circle"></i> Turn your trip into income <i class="fa-solid fa-circle"></i> Jeddah ⇄ Cairo <i class="fa-solid fa-circle"></i> Protected payments <i class="fa-solid fa-circle"></i> OTP confirmation <i class="fa-solid fa-circle"></i></span>
+    </div>
+  </div>
+
+  <!-- ============ About us ============ -->
+  <section id="audiences" data-screen-label="About us">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow"><i class="fa-solid fa-users"></i><span class="L ar">من نحن</span><span class="L en">About us</span></span>
+        <h2 class="section-title"><span class="L ar">نجمع بين المسافرين وأصحاب الطلبات</span><span class="L en">Bringing travelers and senders together</span></h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <div class="aud-card traveler reveal slide-start">
+            <span class="aud-tag"><i class="fa-solid fa-plane"></i><span class="L ar">للمسافرين</span><span class="L en">For travelers</span></span>
+            <div class="aud-body">
+              <h3><span class="L ar">حول رحلتك إلى دخل</span><span class="L en">Turn your trip into income</span></h3>
+              <ul class="aud-list">
+                <li><i class="fa-solid fa-circle-check"></i><span><span class="L ar">استفد من المساحة الفارغة في أمتعتك</span><span class="L en">Monetize the empty space in your luggage</span></span></li>
+                <li><i class="fa-solid fa-circle-check"></i><span><span class="L ar">حدد سعرك واختر الطلبات التي تناسبك</span><span class="L en">Set your price and pick the requests that suit you</span></span></li>
+                <li><i class="fa-solid fa-circle-check"></i><span><span class="L ar">استلم أرباحك في محفظتك فور تأكيد التسليم</span><span class="L en">Get paid to your wallet the moment delivery is confirmed</span></span></li>
+              </ul>
+            </div>
+            <img class="aud-shot" src="img/screens/36-wallet.png" alt="شاشة المحفظة">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="aud-card sender reveal slide-end" style="--d: 120ms;">
+            <span class="aud-tag"><i class="fa-solid fa-box"></i><span class="L ar">لأصحاب الطلبات</span><span class="L en">For senders</span></span>
+            <div class="aud-body">
+              <h3><span class="L ar">أرسل واستلم بسهولة</span><span class="L en">Send and receive with ease</span></h3>
+              <ul class="aud-list">
+                <li><i class="fa-solid fa-circle-check"></i><span><span class="L ar">وصل أغراضك بين المدن أسرع من الشحن التقليدي</span><span class="L en">Move items between cities faster than traditional shipping</span></span></li>
+                <li><i class="fa-solid fa-circle-check"></i><span><span class="L ar">اختر المسافر بنفسك بعد الاطلاع على تقييماته</span><span class="L en">Choose your traveler yourself after reviewing their ratings</span></span></li>
+                <li><i class="fa-solid fa-circle-check"></i><span><span class="L ar">مبلغك محفوظ حتى تستلم وتؤكد بنفسك</span><span class="L en">Your money is held until you receive and confirm</span></span></li>
+              </ul>
+            </div>
+            <img class="aud-shot" src="img/screens/26-tracking.png" alt="شاشة التتبع">
+          </div>
+        </div>
+      </div>
+      <div class="about-video reveal">
+        <button type="button" class="content-video" data-toggle="modal" data-target="#ytPlayer">
+          <span class="icon"><i class="fa-solid fa-play"></i></span>
+          <span><span class="L ar">الفيديو التعريفي</span><span class="L en">Intro video</span></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============ How it works ============ -->
+  <section id="how" data-screen-label="How it works">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow"><i class="fa-solid fa-route"></i><span class="L ar">كيف يعمل شيرباك</span><span class="L en">How SherBak works</span></span>
+        <h2 class="section-title"><span class="L ar">أربع خطوات من الطلب إلى التسليم</span><span class="L en">Four steps from request to delivery</span></h2>
+        <p class="section-lead"><span class="L ar">سواء كنت مسافرا أو صاحب طلب، كل شيء يتم داخل التطبيق — من النشر حتى تأكيد الاستلام.</span><span class="L en">Traveler or sender, everything happens in the app — from posting to confirmed hand-off.</span></p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card reveal">
+          <span class="step-num">01</span>
+          <span class="step-icon"><i class="fa-solid fa-plus"></i></span>
+          <h3><span class="L ar">انشر طلبك أو رحلتك</span><span class="L en">Post a request or a trip</span></h3>
+          <p><span class="L ar">أضف تفاصيل طلبك، أو أعلن عن رحلتك القادمة والمساحة المتاحة في أمتعتك.</span><span class="L en">Add your parcel details, or list your upcoming trip and spare luggage space.</span></p>
+        </div>
+        <div class="step-card reveal" style="--d: 90ms;">
+          <span class="step-num">02</span>
+          <span class="step-icon"><i class="fa-solid fa-handshake"></i></span>
+          <h3><span class="L ar">طابق وتواصل</span><span class="L en">Match and chat</span></h3>
+          <p><span class="L ar">تصفح الرحلات والطلبات المتاحة، وتواصل عبر المحادثة واتفق على السعر.</span><span class="L en">Browse available trips and requests, chat in-app and agree on a price.</span></p>
+        </div>
+        <div class="step-card reveal" style="--d: 180ms;">
+          <span class="step-num">03</span>
+          <span class="step-icon"><i class="fa-solid fa-lock"></i></span>
+          <h3><span class="L ar">ادفع بأمان</span><span class="L en">Pay securely</span></h3>
+          <p><span class="L ar">يدفع المبلغ إلكترونيا ويبقى محفوظا في محفظة المنصة حتى اكتمال التسليم.</span><span class="L en">Pay electronically — funds stay held in the platform wallet until delivery is complete.</span></p>
+        </div>
+        <div class="step-card reveal" style="--d: 270ms;">
+          <span class="step-num">04</span>
+          <span class="step-icon"><i class="fa-solid fa-circle-check"></i></span>
+          <h3><span class="L ar">استلم وأكد بـ OTP</span><span class="L en">Receive and confirm via OTP</span></h3>
+          <p><span class="L ar">عند الاستلام يؤكد المستلم برمز تحقق، ثم يحرر المبلغ للمسافر مباشرة.</span><span class="L en">At hand-off the receiver confirms with a one-time code, and funds are released to the traveler.</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Features ============ -->
+  <section id="features" class="features-section" data-screen-label="Features">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow"><i class="fa-solid fa-star"></i><span class="L ar">المزايا</span><span class="L en">Features</span></span>
+        <h2 class="section-title"><span class="L ar">كل ما تحتاجه في منصة واحدة</span><span class="L en">Everything you need in one platform</span></h2>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature reveal">
+          <span class="feature-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+          <div>
+            <h3><span class="L ar">مطابقة الرحلات والطلبات</span><span class="L en">Trip &amp; request matching</span></h3>
+            <p><span class="L ar">ابحث حسب المدينة والتاريخ واعثر على الطرف المناسب خلال ثوان.</span><span class="L en">Search by city and date to find the right match in seconds.</span></p>
+          </div>
+        </div>
+        <div class="feature reveal" style="--d: 80ms;">
+          <span class="feature-icon"><i class="fa-solid fa-comments"></i></span>
+          <div>
+            <h3><span class="L ar">محادثة داخل التطبيق</span><span class="L en">In-app chat</span></h3>
+            <p><span class="L ar">تواصل واتفق على التفاصيل دون مشاركة رقم هاتفك.</span><span class="L en">Negotiate details without sharing your phone number.</span></p>
+          </div>
+        </div>
+        <div class="feature reveal" style="--d: 160ms;">
+          <span class="feature-icon"><i class="fa-solid fa-wallet"></i></span>
+          <div>
+            <h3><span class="L ar">محفظة ودفع إلكتروني</span><span class="L en">Wallet &amp; e-payments</span></h3>
+            <p><span class="L ar">ادفع واستلم أرباحك داخل التطبيق بكل سهولة وأمان.</span><span class="L en">Pay and withdraw earnings inside the app, safely.</span></p>
+          </div>
+        </div>
+        <div class="feature reveal">
+          <span class="feature-icon"><i class="fa-solid fa-location-dot"></i></span>
+          <div>
+            <h3><span class="L ar">تتبع لمراحل الطلب</span><span class="L en">Order stage tracking</span></h3>
+            <p><span class="L ar">تابع حالة طلبك خطوة بخطوة من الاستلام حتى التسليم.</span><span class="L en">Follow your order step by step from pickup to delivery.</span></p>
+          </div>
+        </div>
+        <div class="feature reveal" style="--d: 80ms;">
+          <span class="feature-icon"><i class="fa-solid fa-bell"></i></span>
+          <div>
+            <h3><span class="L ar">إشعارات لحظية</span><span class="L en">Instant notifications</span></h3>
+            <p><span class="L ar">تنبيهات فورية عند كل تحديث — عرض جديد، اتفاق، أو تسليم.</span><span class="L en">Real-time alerts for every update — new offers, agreements, deliveries.</span></p>
+          </div>
+        </div>
+        <div class="feature reveal" style="--d: 160ms;">
+          <span class="feature-icon"><i class="fa-solid fa-star-half-stroke"></i></span>
+          <div>
+            <h3><span class="L ar">تقييم متبادل</span><span class="L en">Mutual ratings</span></h3>
+            <p><span class="L ar">اطلع على تقييمات الطرف الآخر وسجله قبل إتمام الاتفاق.</span><span class="L en">See the other party's ratings and history before you agree.</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Trust & safety ============ -->
+  <section id="trust" class="trust-section" data-screen-label="Trust and safety">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow"><i class="fa-solid fa-shield-halved"></i><span class="L ar">الثقة</span><span class="L en">Trust</span></span>
+        <h2 class="section-title"><span class="L ar">مصمم لتعزيز الثقة بين المستخدمين</span><span class="L en">Designed to build trust between users</span></h2>
+        <p class="section-lead"><span class="L ar">نعزز الأمان في كل خطوة من التوثيق وحتى تأكيد الاستلام</span><span class="L en">We reinforce safety at every step — from verification to delivery confirmation</span></p>
+      </div>
+
+      <div class="trust-grid">
+        <div class="trust-card reveal">
+          <span class="trust-icon"><i class="fa-solid fa-vault"></i></span>
+          <h3><span class="L ar">محفظة ضمان</span><span class="L en">Escrow wallet</span></h3>
+          <p><span class="L ar">المبلغ يحجز عند الاتفاق ولا يحرر للمسافر إلا بعد تأكيد الاستلام.</span><span class="L en">Funds are held at agreement and only released to the traveler after confirmed receipt.</span></p>
+        </div>
+        <div class="trust-card reveal" style="--d: 90ms;">
+          <span class="trust-icon"><i class="fa-solid fa-key"></i></span>
+          <h3><span class="L ar">تأكيد التسليم</span><span class="L en">Delivery confirmation</span></h3>
+          <p><span class="L ar">لا يكتمل التسليم إلا برمز تحقق OTP يملكه المستلم وحده.</span><span class="L en">Delivery only completes with a one-time code held by the receiver alone.</span></p>
+        </div>
+        <div class="trust-card reveal" style="--d: 180ms;">
+          <span class="trust-icon"><i class="fa-solid fa-id-card"></i></span>
+          <h3><span class="L ar">توثيق الهوية</span><span class="L en">Identity verification</span></h3>
+          <p><span class="L ar">نتحقق من هوية المستخدمين بعناية لتعزيز الثقة بين الأطراف.</span><span class="L en">Users are identity-verified per platform requirements to build trust between parties.</span></p>
+        </div>
+        <div class="trust-card reveal" style="--d: 270ms;">
+          <span class="trust-icon"><i class="fa-solid fa-percent"></i></span>
+          <h3><span class="L ar">عمولة واضحة</span><span class="L en">Transparent fee</span></h3>
+          <p><span class="L ar">عمولة المنصة ثابتة وتظهر لك بوضوح قبل إتمام أي اتفاق.</span><span class="L en">A flat platform fee, shown clearly before you complete any agreement.</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Stats & testimonials ============ -->
+  <section id="community" class="social-proof-section" data-screen-label="Stats and testimonials">
+    <div class="container">
+      <div class="stats-row reveal">
+        <div class="stat">
+          <span class="stat-number" data-count="1,200+">1,200+</span>
+          <span class="stat-label"><span class="L ar">مستخدم مسجل</span><span class="L en">Registered users</span></span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="350+">350+</span>
+          <span class="stat-label"><span class="L ar">رحلة منشورة</span><span class="L en">Trips posted</span></span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="900+">900+</span>
+          <span class="stat-label"><span class="L ar">شحنة سلمت بنجاح</span><span class="L en">Parcels delivered</span></span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="4.8">4.8</span>
+          <span class="stat-label"><span class="L ar">متوسط التقييم</span><span class="L en">Average rating</span></span>
+        </div>
+      </div>
+
+      <div class="section-head center reveal">
+        <span class="eyebrow"><i class="fa-solid fa-users"></i><span class="L ar">مجتمع شيرباك</span><span class="L en">Our community</span></span>
+        <h2 class="section-title"><span class="L ar">قصص من مجتمع <span class="sher-w">شير</span><span class="bak-w">باك</span></span><span class="L en">Stories from the <span class="sher-w">Sher</span><span class="bak-w">Bak</span> community</span></h2>
+      </div>
+
+      <div class="testi-grid">
+        <figure class="testi-card reveal">
+          <div class="testi-stars" aria-hidden="true"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <blockquote class="testi-text">
+            <span class="L ar">أستفيد من المساحة الفارغة في حقيبتي في كل رحلة، والتطبيق يرتب كل شيء من الاتفاق حتى تأكيد التسليم.</span>
+            <span class="L en">Every trip, the empty space in my luggage pays off — the app handles everything from agreement to delivery confirmation.</span>
+          </blockquote>
+          <figcaption class="testi-person">
+            <img class="testi-avatar" src="img/avatars/fahad.jpg" alt="فهد القحطاني">
+            <span>
+              <strong><span class="L ar">فهد القحطاني</span><span class="L en">Fahad Al-Qahtani</span></strong>
+              <span class="testi-role"><span class="L ar">مسافر · جدة</span><span class="L en">Traveler · Jeddah</span></span>
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="testi-card reveal" style="--d: 100ms;">
+          <div class="testi-stars" aria-hidden="true"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <blockquote class="testi-text">
+            <span class="L ar">وصلت أغراضي إلى أهلي في القاهرة خلال يومين بدلا من أسابيع، ولا يحرر المبلغ إلا بعد تأكيد الاستلام برمز التحقق.</span>
+            <span class="L en">My items reached my family in Cairo in two days instead of weeks — and funds are only released after OTP confirmation.</span>
+          </blockquote>
+          <figcaption class="testi-person">
+            <img class="testi-avatar" src="img/avatars/mahmoud.jpg" alt="محمود إسلام">
+            <span>
+              <strong><span class="L ar">محمود إسلام</span><span class="L en">Mahmoud Islam</span></strong>
+              <span class="testi-role"><span class="L ar">صاحب طلب · القاهرة</span><span class="L en">Sender · Cairo</span></span>
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="testi-card reveal" style="--d: 200ms;">
+          <div class="testi-stars" aria-hidden="true"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <blockquote class="testi-text">
+            <span class="L ar">ساعدتني التقييمات في اختيار المسافر المناسب، وكانت التجربة سلسة من المحادثة حتى رمز الاستلام.</span>
+            <span class="L en">Ratings helped me pick the right traveler — a smooth experience from chat to pickup code.</span>
+          </blockquote>
+          <figcaption class="testi-person">
+            <span class="testi-initials"><span class="L ar">ن.غ</span><span class="L en">NG</span></span>
+            <span>
+              <strong><span class="L ar">نورة الغامدي</span><span class="L en">Noura Al-Ghamdi</span></strong>
+              <span class="testi-role"><span class="L ar">مرسلة · جدة</span><span class="L en">Sender · Jeddah</span></span>
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Routes ============ -->
+  <section id="routes" class="routes-section" data-screen-label="Routes">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5 mb-5 mb-lg-0">
+          <div class="section-head routes-head reveal">
+            <span class="eyebrow"><i class="fa-solid fa-map-location-dot"></i><span class="L ar">الوجهات</span><span class="L en">Routes</span></span>
+            <h2 class="section-title"><span class="L ar">نبدأ من جدة والقاهرة…<br>وهذه البداية فقط</span><span class="L en">Starting with Jeddah &amp; Cairo…<br>and that's just the beginning</span></h2>
+            <p class="section-lead"><span class="L ar">نضيف وجهات جديدة تدريجيا وفق خطة تشغيل المنصة. لديك وجهة تحتاجها؟ أخبرنا.</span><span class="L en">New corridors open gradually as the platform grows. Need a specific route? Tell us.</span></p>
+            <a class="suggest-route" href="https://wa.me/966535222822?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%0A%0A%D9%84%D8%AF%D9%8A%20%D8%A5%D9%82%D8%AA%D8%B1%D8%A7%D8%AD%20%D9%84%D9%84%D9%88%D8%AC%D9%87%D8%A9%20%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D9%85%D8%A9" target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span class="L ar">اقترح وجهتك القادمة</span><span class="L en">Suggest your next route</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="routes-board reveal" style="--d: 120ms;">
+            <div class="board-head">
+              <span class="board-title"><i class="fa-solid fa-plane-departure"></i><span class="L ar">لوحة الوجهات</span><span class="L en">Route board</span></span>
+            </div>
+            <div class="board-row active">
+              <span class="route-end">
+                <span class="route-city"><span class="L ar">جدة</span><span class="L en">Jeddah</span></span>
+                <span class="route-code">JED</span>
+              </span>
+              <span class="route-line"><i class="fa-solid fa-right-left"></i></span>
+              <span class="route-end">
+                <span class="route-city"><span class="L ar">القاهرة</span><span class="L en">Cairo</span></span>
+                <span class="route-code">CAI</span>
+              </span>
+              <span class="route-status"><span class="L ar">متاح</span><span class="L en">Live</span></span>
+            </div>
+            <div class="board-row soon">
+              <span class="route-end">
+                <span class="route-city"><span class="L ar">الرياض</span><span class="L en">Riyadh</span></span>
+                <span class="route-code">RUH</span>
+              </span>
+              <span class="route-line"><i class="fa-solid fa-right-left"></i></span>
+              <span class="route-end">
+                <span class="route-city"><span class="L ar">القاهرة</span><span class="L en">Cairo</span></span>
+                <span class="route-code">CAI</span>
+              </span>
+              <span class="route-status"><span class="L ar">قريبا</span><span class="L en">Soon</span></span>
+            </div>
+            <div class="board-row soon">
+              <span class="route-end">
+                <span class="route-city"><span class="L ar">جدة</span><span class="L en">Jeddah</span></span>
+                <span class="route-code">JED</span>
+              </span>
+              <span class="route-line"><i class="fa-solid fa-right-left"></i></span>
+              <span class="route-end">
+                <span class="route-city"><span class="L ar">الإسكندرية</span><span class="L en">Alexandria</span></span>
+                <span class="route-code">HBE</span>
+              </span>
+              <span class="route-status"><span class="L ar">قريبا</span><span class="L en">Soon</span></span>
+            </div>
+            <div class="board-row soon">
+              <span class="route-end">
+                <span class="route-city"><span class="L ar">الرياض</span><span class="L en">Riyadh</span></span>
+                <span class="route-code">RUH</span>
+              </span>
+              <span class="route-line"><i class="fa-solid fa-right-left"></i></span>
+              <span class="route-end">
+                <span class="route-city"><span class="L ar">الإسكندرية</span><span class="L en">Alexandria</span></span>
+                <span class="route-code">HBE</span>
+              </span>
+              <span class="route-status"><span class="L ar">قريبا</span><span class="L en">Soon</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Download CTA ============ -->
+  <section id="download" class="cta-section" data-screen-label="Download CTA">
+    <div class="container">
+      <div class="cta-band reveal">
+        <img class="cta-icon" src="img/sherbak-icon-r.png" alt="أيقونة شيرباك">
+        <h2><span class="L ar">شيرباك · كل رحلة فرصة</span><span class="L en">SherBak · Every trip is an opportunity</span></h2>
+        <p><span class="L ar">حمل التطبيق الآن وانضم إلى مجتمع شيرباك</span><span class="L en">Download the app now and join the SherBak community</span></p>
+        <div class="store-badges">
+          <a class="store-badge" href="#" data-store-soon>
+            <i class="fa-brands fa-apple"></i>
+            <span class="sb-text">
+              <span class="sb-small"><span class="L ar">تنزيل من</span><span class="L en">Download on the</span></span>
+              <span class="sb-big">App Store</span>
+            </span>
+          </a>
+          <a class="store-badge" href="#" data-store-soon>
+            <i class="fa-brands fa-google-play"></i>
+            <span class="sb-text">
+              <span class="sb-small"><span class="L ar">احصل عليه من</span><span class="L en">Get it on</span></span>
+              <span class="sb-big">Google Play</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Footer ============ -->
+  <footer class="footer" data-screen-label="Footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 footer-brand">
+          <img src="img/sherbak-logo-r.png" alt="شعار شيرباك">
+          <p><span class="L ar">منصة تجمع بين المسافرين وأصحاب الطلبات لتوصيل الأغراض بين المدن والدول.</span><span class="L en">A platform bringing travelers and senders together to move parcels between cities and countries.</span></p>
+          <div class="social-row">
+            <a href="https://x.com/sherbakapp" target="_blank" rel="noopener" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/sherbakapp" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@sherbakapp" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.snapchat.com/add/sherbakapp" target="_blank" rel="noopener" aria-label="Snapchat"><i class="fa-brands fa-snapchat"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+          <h4><span class="L ar">روابط سريعة</span><span class="L en">Quick links</span></h4>
+          <ul class="footer-links">
+            <li><a href="#audiences"><span class="L ar">من نحن</span><span class="L en">About us</span></a></li>
+            <li><a href="#how"><span class="L ar">كيف يعمل</span><span class="L en">How it works</span></a></li>
+            <li><a href="#features"><span class="L ar">المزايا</span><span class="L en">Features</span></a></li>
+            <li><a href="#trust"><span class="L ar">الثقة</span><span class="L en">Trust</span></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <h4><span class="L ar">قانوني</span><span class="L en">Legal</span></h4>
+          <ul class="footer-links">
+            <li><a href="terms.html"><span class="L ar">الشروط والأحكام</span><span class="L en">Terms &amp; conditions</span></a></li>
+            <li><a href="privacy.html"><span class="L ar">سياسة الخصوصية</span><span class="L en">Privacy policy</span></a></li>
+            <li><a href="faq.html"><span class="L ar">الأسئلة الشائعة</span><span class="L en">FAQ</span></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4><span class="L ar">تواصل معنا</span><span class="L en">Contact us</span></h4>
+          <ul class="footer-contact">
+            <li>
+              <i class="fa-brands fa-whatsapp"></i>
+              <a href="https://wa.me/966535222822">+966 53 522 2822</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:info@sherbak.com">info@sherbak.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span><span class="L ar">© 2026 شيرباك. جميع الحقوق محفوظة.</span><span class="L en">© 2026 SherBak. All rights reserved.</span></span>
+        <span><span class="L ar">تطوير وتنفيذ</span><span class="L en">Developed by</span> <a href="https://highestweb.com" target="_blank" rel="noopener">HighestWeb</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" class="back-top" aria-label="العودة للأعلى"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <div class="soon-modal" id="soon_modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="soon-backdrop" data-soon-close></div>
+    <div class="soon-box">
+      <img src="img/sherbak-icon.png" alt="شيرباك">
+      <h3><span class="L ar">قريبا على المتاجر</span><span class="L en">Coming soon to app stores</span></h3>
+      <p><span class="L ar">تطبيق شيرباك في مراحله الأخيرة قبل الإطلاق على App Store و Google Play. ترقبونا!</span><span class="L en">SherBak is in its final steps before launching on the App Store and Google Play. Stay tuned!</span></p>
+      <button type="button" class="soon-close" data-soon-close><span class="L ar">حسنا</span><span class="L en">OK</span></button>
+    </div>
+  </div>
+
+  <div class="modal fade" id="ytPlayer" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" id="ytPlayerFrame" src="" title="الفيديو التعريفي" referrerpolicy="origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/landing.js?v=11"></script>
+</body>
+</html>

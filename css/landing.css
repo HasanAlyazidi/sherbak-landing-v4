@@ -1190,15 +1190,17 @@ a:focus-visible {
   gap: 0.625rem;
   background: transparent;
   color: var(--navy);
+  border: 1.5px solid rgba(26, 81, 124, 0.45);
   font-weight: 700;
   font-size: 0.95rem;
   border-radius: 999px;
   padding: 0.625rem 1.375rem;
-  transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
 
 .suggest-route:hover {
   background: var(--navy);
+  border-color: var(--navy);
   color: #fff;
 }
 
